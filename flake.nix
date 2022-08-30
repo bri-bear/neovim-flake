@@ -18,6 +18,11 @@
       flake = false;
     };
     # Git
+    "plugin:monaco-theme" = {
+      url = "github:bri-bear/monaco-theme";
+      flake = false;
+    }
+    
     "plugin:gitsigns" = {
       url = "github:lewis6991/gitsigns.nvim";
       flake = false;
